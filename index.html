@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Travel Recommender - Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to Travel Recommender</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="destinations.html">Destinations</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Find your perfect destination</h2>
+    <form id="searchForm">
+      <label for="continent">Choose a Continent:</label>
+      <select id="continent" name="continent">
+        <option value="">--Any--</option>
+        <option value="Europe">Europe</option>
+        <option value="Asia">Asia</option>
+        <option value="America">America</option>
+        <option value="Africa">Africa</option>
+      </select>
+
+      <label for="type">Choose a Type:</label>
+      <select id="type" name="type">
+        <option value="">--Any--</option>
+        <option value="City">City</option>
+        <option value="Beach">Beach</option>
+        <option value="Mountain">Mountain</option>
+        <option value="Adventure">Adventure</option>
+      </select>
+
+      <button type="submit">Find Destinations</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Travel Recommender</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
